@@ -6,7 +6,7 @@ delete('./Data/Sparse*.txt');
 MatNames = ["bcsstk21"; "fv1"; "crystm03"; "apache1"; "shallow_water2"];
 Dimension = [3600, 9604, 24696, 80800, 81920];
 num_test = 5; % the number of test matrices
-num_alg = 6;
+num_alg = 4;
 list_k = [18, 48, 100, 100, 100]; % the number of computed eigenvalues
 Max_time = 3600;
 Max_iter = 200;
